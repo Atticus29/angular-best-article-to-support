@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFire, FirebaseListObservable } from 'angularfire2'
+import { Claim } from '../claim.model'
 
 @Component({
   selector: 'app-claim',
@@ -6,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./claim.component.css']
 })
 export class ClaimComponent implements OnInit {
-
-  constructor() { }
+  claims: FirebaseListObservable<any[]>
+  constructor(af: AngularFire) {
+    this.claims = af.database.list('/claims')
+  }
 
   ngOnInit() {
   }

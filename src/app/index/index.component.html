@@ -1,3 +1,3 @@
-<p>
-  index works!
-</p>
+<ul>
+  <li *ngFor="let claim in claims | async" (click)="goToClaimPage(claim)">{{claim.title}}</li>
+</ul>
