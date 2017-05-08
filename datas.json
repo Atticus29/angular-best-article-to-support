@@ -1,0 +1,23 @@
+{
+  "claims": [{
+    "assertion": "Roses are red",
+    "upvotes": 1,
+    "downvotes": 0,
+    "posterId": 0,
+    "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Cropped_Small_Red_Rose.JPG/1416px-Cropped_Small_Red_Rose.JPG"
+    }, {
+    "assertion": "Violets are blue",
+    "upvotes": 0,
+    "downvotes": 10,
+    "posterId": 1,
+    "imageURL": "http://weknowyourdreams.com/images/violet/violet-07.jpg"
+    }, {
+    "assertion": "Death is inevitable",
+    "upvotes": 10000,
+    "downvotes": 90,
+    "posterId": 2,
+    "imageURL": "https://1a3kls1q8u5etu6z53sktyqdif-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/Death.jpg"
+    }
+  ]
+
+}
